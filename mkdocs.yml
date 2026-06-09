@@ -92,6 +92,7 @@ nav:
     - Infrastructure Reuse: architecture/infrastructure-reuse.md
   - Browser Capabilities:
     - AI Inference: capabilities/ai-inference.md
+    - AI Image Generation: capabilities/image-generation.md
     - Node.js in Browser: capabilities/nodejs-browser.md
     - Browser Automation: capabilities/browser-automation.md
     - Local LLM Connection: capabilities/local-llm.md
