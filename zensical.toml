@@ -1,0 +1,14 @@
+[project]
+site_name = "Open Frontier — Platform Knowledge Base"
+site_url = "https://docs.openfrontier.one"
+site_description = "Open Frontier One platform knowledge base — apps, games, simulations, websites, AI, design, marketing"
+docs_dir = "docs"
+site_dir = "site"
+extra_css = ["stylesheets/ofo.css"]
+copyright = "Open Frontier One"
+
+[project.extra]
+homepage = "https://openfrontier.one"
+
+[project.theme]
+variant = "modern"

@@ -14,7 +14,7 @@
 
 ## Overview
 
-Marketing tools that run in the browser. Campaign planning, social media content, SEO analysis, content creation. No signup, no word limits, no trials that expire. Part of [Open Frontier](https://openfrontier.pages.dev).
+Marketing tools that run in the browser. Campaign planning, social media content, SEO analysis, content creation. No signup, no word limits, no trials that expire. Part of [Open Frontier](https://openfrontier.one).
 
 ## Categories (4)
 

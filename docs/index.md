@@ -2,7 +2,7 @@
 
 Open Frontier One (OFO) is the umbrella over the store ecosystem: curated stores for web apps, games, websites, AI agents, browser tools, and interactive knowledge.
 
-The OFO public website lives in `landing/` and is deployed as `openfrontier.pages.dev`. The docs you are reading live in `docs/` and are deployed as `openfrontier-docs.pages.dev`.
+The OFO public website lives in `landing/` and is deployed as `openfrontier.one`. The docs you are reading live in `docs/` and are deployed as `docs.openfrontier.one`.
 
 ## At a glance
 

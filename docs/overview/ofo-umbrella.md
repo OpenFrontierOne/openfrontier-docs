@@ -2,7 +2,7 @@
 
 Open Frontier One (OFO) is the umbrella over the store ecosystem.
 
-The OFO public website is the ecosystem-level site, not an individual store. It lives in `landing/` in this workspace and is deployed as `openfrontier.pages.dev`.
+The OFO public website is the ecosystem-level site, not an individual store. It lives in `landing/` in this workspace and is deployed as `openfrontier.one`.
 
 ## What OFO covers
 

@@ -8,8 +8,8 @@ OFO is the umbrella site over all stores.
 
 | Surface | Local path | Deployment |
 |---|---|---|
-| Public OFO website | `landing/` | `openfrontier.pages.dev` |
-| Platform knowledge base | `docs/` | `openfrontier-docs.pages.dev` |
+| Public OFO website | `landing/` | `openfrontier.one` |
+| Platform knowledge base | `docs/` | `docs.openfrontier.one` |
 
 `OpenFrontierOne` is the GitHub org for the OFO umbrella itself. Store repos stay in their existing store orgs unless a specific repo migration is explicitly requested.
 

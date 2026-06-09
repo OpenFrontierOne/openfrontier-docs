@@ -14,7 +14,7 @@
 
 ## Overview
 
-Browser-based design tools. No signup, no watermarks, no accounts. Every tool is a single HTML file. Part of [Open Frontier](https://openfrontier.pages.dev).
+Browser-based design tools. No signup, no watermarks, no accounts. Every tool is a single HTML file. Part of [Open Frontier](https://openfrontier.one).
 
 ## Categories (4)
 
