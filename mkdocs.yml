@@ -1,0 +1,116 @@
+site_name: Open Frontier — Platform Knowledge Base
+site_url: https://openfrontier-docs.pages.dev
+site_description: 14+ store platform — apps, games, simulations, websites, AI, design, marketing
+extra:
+  homepage: https://openfrontier.pages.dev
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+  icon:
+    logo: material/layers-triple
+
+nav:
+  - Home: index.md
+  - Ecosystem:
+    - Vision & Strategy: ecosystem/vision.md
+    - Product Lines: ecosystem/products.md
+    - Revenue Model: ecosystem/revenue.md
+    - Growth & Metrics: ecosystem/metrics.md
+    - Roadmap: ecosystem/roadmap.md
+    - Technical Moat: ecosystem/moat.md
+    - SDK Components: ecosystem/sdk-components.md
+  - Platform Overview:
+    - OFO Umbrella: overview/ofo-umbrella.md
+    - The 8 Stores: overview/stores.md
+    - Free vs Pro Model: overview/free-vs-pro.md
+    - Design System: overview/design-system.md
+    - Conventions: overview/conventions.md
+    - Infrastructure: overview/infrastructure.md
+  - Per-Store Detail:
+    - FAS (Apps): stores/fas.md
+    - FGS (Games): stores/fgs.md
+    - PAS (Pro Apps): stores/pas.md
+    - PGS (Pro Games): stores/pgs.md
+    - FWS (Websites): stores/fws.md
+    - PWS (Pro Websites): stores/pws.md
+    - FAGS (Agents): stores/fags.md
+    - PAGS (Pro Agents): stores/pags.md
+    - FRS (Robots): stores/frs.md
+    - FQS (Quantum): stores/fqs.md
+    - FCRS (Crypto): stores/fcrs.md
+    - FBS (Bio): stores/fbs.md
+    - FCS (Chips): stores/fcs.md
+    - FSS (Space): stores/fss.md
+    - FDS (Design): stores/fds.md
+    - FMS (Marketing): stores/fms.md
+    - PDS (Pro Design): stores/pds.md
+    - PMS (Pro Marketing): stores/pms.md
+  - Marketplace Models:
+    - PDS Marketplace: stores/pds-marketplace-model.md
+    - PMS Marketplace: stores/pms-marketplace-model.md
+  - Planning & History:
+    - FDS Planning (original): stores/fdesign.md
+    - FMS Planning (original): stores/fmarketing.md
+    - FreeAdStore (planned): stores/fads.md
+    - ProAdStore (planned): stores/pads.md
+  - Maturity & Gaps:
+    - Scorecard: maturity/scorecard.md
+    - Misalignments: maturity/misalignments.md
+    - Action Plan: maturity/action-plan.md
+  - Agent Store Research:
+    - Landscape: research/landscape.md
+    - Competitive Analysis: research/competitive.md
+    - Positioning: research/positioning.md
+  - Agent Store Architecture:
+    - Overview: architecture/overview.md
+    - Browser Runtime: architecture/browser-runtime.md
+    - Free vs Pro Split: architecture/free-vs-pro.md
+    - Agent Categories: architecture/agent-categories.md
+    - Infrastructure Reuse: architecture/infrastructure-reuse.md
+  - Browser Capabilities:
+    - AI Inference: capabilities/ai-inference.md
+    - Node.js in Browser: capabilities/nodejs-browser.md
+    - Browser Automation: capabilities/browser-automation.md
+    - Local LLM Connection: capabilities/local-llm.md
+    - Storage & Persistence: capabilities/storage.md
+  - Reference:
+    - Store Patterns: reference/store-patterns.md
+    - SDK Surface: reference/sdk-surface.md
+    - Compliance Checks: reference/compliance-checks.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
