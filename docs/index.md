@@ -86,4 +86,4 @@ graph TB
 
 ---
 
-*Last updated: 2026-06-07*
+*Last updated: 2026-06-09 — published from OpenFrontierOne/openfrontier-docs.*
