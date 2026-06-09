@@ -6,7 +6,7 @@ The OFO public website lives in `landing/` and is deployed as `openfrontier.one`
 
 ## At a glance
 
-- **344 repositories** across 8 GitHub organizations
+- **344 repositories** across the store GitHub organizations
 - **170+ live items** deployed and accessible worldwide
 - **4 product verticals** (apps, games, websites, AI agents)
 - **1 umbrella site** (`landing/`) presenting the whole ecosystem
@@ -59,7 +59,7 @@ graph TB
 
 - :material-chart-line: **[Growth & Metrics](ecosystem/metrics.md)**
 
-    344 repos, 1389 source files, 910 tests. Engineering at scale.
+    Snapshot metrics for repository count, source files, tests, and deployed items.
 
 - :material-map-marker-path: **[Roadmap](ecosystem/roadmap.md)**
 
@@ -86,4 +86,4 @@ graph TB
 
 ---
 
-*Last updated: 2026-06-09 — published from OpenFrontierOne/openfrontier-docs.*
+*Last updated: 2026-06-09.*

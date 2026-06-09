@@ -5,7 +5,7 @@
 | Field | Value |
 |-------|-------|
 | URL | [freecryptostore.pages.dev](https://freecryptostore.pages.dev) |
-| GitHub | [serge-ivo/freecryptostore-platform](https://github.com/serge-ivo/freecryptostore-platform) |
+| GitHub | [freecryptostore-online/platform](https://github.com/freecryptostore-online/platform) |
 | Simulations | 25 |
 | Discord | Pending |
 | Accent | `#f59e0b` (amber) |
@@ -33,4 +33,4 @@
 
 ## Newest Store
 
-Created 2026-06-08. Org `freecryptostore-online` pending (currently under `serge-ivo`).
+Created 2026-06-08. The platform repo now lives in `freecryptostore-online/platform`.

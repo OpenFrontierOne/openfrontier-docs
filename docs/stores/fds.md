@@ -5,7 +5,7 @@
 | Field | Value |
 |-------|-------|
 | URL | [freedesignstore.pages.dev](https://freedesignstore.pages.dev) |
-| GitHub | `serge-ivo/freedesignstore-platform` |
+| GitHub | [freedesignstore-online/platform](https://github.com/freedesignstore-online/platform) |
 | Tools | 43 |
 | Theme | Light |
 | Accent | `#ec4899` (pink/magenta) |

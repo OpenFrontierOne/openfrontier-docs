@@ -75,7 +75,7 @@ We remove all of that. Anyone with a browser can now build a blockchain, design 
 ## Platform Architecture
 
 ```
-Open Frontier (freeprostores.pages.dev)
+Open Frontier One (openfrontier.one)
 ├── Learn (simulation stores)
 │   ├── FreeRobotStore (44 sims)
 │   ├── FreeQuantumStore (27 sims)

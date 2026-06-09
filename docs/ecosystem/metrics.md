@@ -1,6 +1,6 @@
 # Growth & Metrics
 
-## Ecosystem size (as of 2026-06-07)
+## Ecosystem size (snapshot as of 2026-06-09)
 
 ```mermaid
 bar

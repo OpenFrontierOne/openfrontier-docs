@@ -1,4 +1,4 @@
-# Platform Maturity Scorecard (2026-06-07)
+# Platform Maturity Scorecard (2026-06-09 Snapshot)
 
 ## Overview
 

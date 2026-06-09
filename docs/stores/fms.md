@@ -4,8 +4,8 @@
 
 | Field | Value |
 |-------|-------|
-| URL | freemarketingstore.pages.dev |
-| GitHub | `serge-ivo/freemarketingstore-platform` |
+| URL | [freemarketingstore.pages.dev](https://freemarketingstore.pages.dev) |
+| GitHub | [freemarketingstore-online/platform](https://github.com/freemarketingstore-online/platform) |
 | Tools | 21 |
 | Theme | Light |
 | Accent | TBD (energetic — orange/electric blue) |

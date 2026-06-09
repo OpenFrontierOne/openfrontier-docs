@@ -9,6 +9,19 @@
   --ofo-purple-soft: rgba(139, 92, 246, 0.16);
   --ofo-cyan: #38bdf8;
   --ofo-amber: #fbbf24;
+  --ofo-doc-scale: 1;
+}
+
+html[data-ofo-font-size="small"] {
+  --ofo-doc-scale: 0.92;
+}
+
+html[data-ofo-font-size="large"] {
+  --ofo-doc-scale: 1.1;
+}
+
+html[data-ofo-font-size="xlarge"] {
+  --ofo-doc-scale: 1.22;
 }
 
 body,
@@ -52,6 +65,10 @@ body::before {
 
 .md-content__inner {
   padding-top: 2rem;
+}
+
+.md-typeset {
+  font-size: calc(0.8rem * var(--ofo-doc-scale));
 }
 
 .md-typeset h1,
@@ -125,4 +142,39 @@ body::before {
 .md-footer {
   background: #050507;
   border-top: 1px solid var(--ofo-line);
+}
+
+.ofo-font-control {
+  display: inline-flex;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 20;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: rgba(7, 7, 10, 0.86);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(14px);
+}
+
+.ofo-font-control button {
+  min-width: 2.45rem;
+  min-height: 2.3rem;
+  border: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--ofo-text);
+  background: transparent;
+  font: 700 0.85rem/1 "Manrope", system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.ofo-font-control button:last-child {
+  border-right: 0;
+}
+
+.ofo-font-control button:hover,
+.ofo-font-control button[aria-pressed="true"] {
+  color: #fff;
+  background: var(--ofo-purple-soft);
 }

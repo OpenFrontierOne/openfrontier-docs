@@ -5,6 +5,7 @@ site_description = "Open Frontier One platform knowledge base — apps, games, s
 docs_dir = "docs"
 site_dir = "site"
 extra_css = ["stylesheets/ofo.css"]
+extra_javascript = ["javascripts/font-size.js"]
 copyright = "Open Frontier One"
 
 [project.extra]

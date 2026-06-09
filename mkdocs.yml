@@ -5,6 +5,8 @@ extra:
   homepage: https://openfrontier.one
 extra_css:
   - stylesheets/ofo.css
+extra_javascript:
+  - javascripts/font-size.js
 theme:
   name: material
   variant: modern
