@@ -159,6 +159,7 @@ The first build should stay small:
 - Explicit opt-in before community matching treats the profile as visible.
 - Testable core logic for crash-course plans, next actions, and community recommendations.
 - Signed-in account placeholder with sync payload preview, without sending network requests yet.
+- Local-only OpenAI and Claude API key storage, separate from OFO account sign-in and excluded from sync payloads.
 - Reproducible extension zip packaging in CI for review and test installs.
 - Community recommendation placeholder.
 - No automatic posting, messaging, or broad automation.
