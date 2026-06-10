@@ -155,6 +155,7 @@ The first build should stay small:
 - "Create crash course" prompt.
 - Local goals and profile storage.
 - Local skill level and interests.
+- Local activity history with user export and delete controls.
 - Explicit opt-in before community matching treats the profile as visible.
 - Community recommendation placeholder.
 - No automatic posting, messaging, or broad automation.
