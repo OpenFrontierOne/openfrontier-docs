@@ -1,6 +1,6 @@
-# The 8 Stores
+# The 10 Core Platform Stores
 
-Four free-pro pairs. Free is always 100% free forever; Pro is a single $9/mo subscription that unlocks everything.
+Five free-pro pairs. Free is always 100% free forever; Pro stores add server-side value, curation, diligence, or managed infrastructure. The idea pair is newly deployed and still on Worker preview URLs while custom domains are pending.
 
 ## Apps pair
 
@@ -85,3 +85,25 @@ Server-powered AI agents marketplace. 11 repos.
 - **Agents:** 10 flagship (site-monitor, lead-qualifier, content-pipeline, competitor-intel, support-escalator, data-analyst, meeting-notes, seo-auditor, invoice-parser, email-drafter)
 - **Backend:** 20 API routes, Durable Objects for conversation + memory + tasks
 - **CLI:** pags init/check/publish, 6 compliance checks
+
+## Ideas pair
+
+### FIS — FreeIdeaStore (freeideastore.serge-the-dev.workers.dev)
+
+Public idea lab for raw ideas, critiques, research, pivots, support signals, and contributor reputation.
+
+- **Current scope:** Worker Assets UI plus D1-backed API for ideas, profiles, contributions, and reactions
+- **Idea pages:** Cheap dynamic `/ideas/:id/` records backed by D1 metadata and optional R2 bodies/render cache
+- **Seed catalog:** 6 ideas across finance, community, local services, wellbeing, and platform categories
+- **Principle:** Ideas are not the product; contributor judgment and evidence are the product
+- **Status:** New beta, custom domain pending
+
+### PIS — ProIdeaStore (proideastore.serge-the-dev.workers.dev)
+
+Curated opportunity dossier layer for the strongest FreeIdeaStore activity.
+
+- **Current scope:** Worker Assets UI plus D1-backed API for dossiers, diligence notes, interest signals, and graduations
+- **Dossier pages:** `/dossiers/:id/` opportunity packets with buyer clarity, evidence, missing diligence, risks, and assets
+- **Seed catalog:** 4 dossiers
+- **Principle:** Do not sell raw ideas; sell diligence, readiness, access, and reputation
+- **Status:** New preview, custom domain pending

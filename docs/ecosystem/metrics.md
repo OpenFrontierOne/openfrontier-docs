@@ -1,13 +1,13 @@
 # Growth & Metrics
 
-## Ecosystem size (snapshot as of 2026-06-09)
+## Ecosystem size (snapshot as of 2026-06-11)
 
 ```mermaid
 bar
     title Repositories per Store
-    x-axis ["FAS", "FGS", "PAS", "PGS", "FWS", "PWS", "FAGS", "PAGS"]
+    x-axis ["FAS", "FGS", "PAS", "PGS", "FWS", "PWS", "FAGS", "PAGS", "FIS", "PIS"]
     y-axis "Repos" 0 --> 150
-    bar [144, 80, 28, 14, 14, 1, 52, 11]
+    bar [144, 80, 28, 14, 14, 1, 52, 11, 1, 1]
 ```
 
 | Metric | Count |
@@ -18,8 +18,10 @@ bar
 | Live games (FGS) | ~50 |
 | Live websites (FWS) | ~10 |
 | Live agents (FAGS) | 53 |
+| Seed ideas (FIS) | 6 |
+| Seed dossiers (PIS) | 4 |
 | Pro apps (PAS) | ~13 |
-| Total deployed items | ~170+ |
+| Total deployed items | ~180+ |
 
 ## Platform maturity
 
@@ -39,6 +41,8 @@ quadrantChart
     PWS: [0.05, 0.75]
     FAGS: [0.40, 0.45]
     PAGS: [0.10, 0.50]
+    FIS: [0.08, 0.35]
+    PIS: [0.05, 0.30]
     PGS: [0.10, 0.25]
 ```
 

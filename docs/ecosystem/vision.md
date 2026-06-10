@@ -32,7 +32,8 @@ We remove all of that. Anyone with a browser can now build a blockchain, design 
 | Pro Design/Marketing | PDS, PMS | Console + backend scaffolded | Scaffolded |
 | Websites | FWS, PWS | Hundreds of sites | Production CMS engine |
 | AI Tools | FAGS, PAGS | 51 browser AI tools | Live |
-| **Total** | **18 stores** | **500+ items** | |
+| Ideas | FIS, PIS | 6 ideas + 4 dossiers | New beta/preview on Worker URLs |
+| **Total** | **20 stores** | **500+ items** | |
 
 #### Simulation stores breakdown
 
@@ -68,6 +69,8 @@ We remove all of that. Anyone with a browser can now build a blockchain, design 
 
 **Pro stores scaffolded:** PDS and PMS have console, agent, marketplace pages plus backend Workers with D1 schema and agent-teams packages. PADS (ProAdStore) planned as AI ad agent + marketplace. Not yet deployed.
 
+**Idea stores beta:** FreeIdeaStore is deployed as a public idea lab for critique, evidence, pivots, and contributor reputation. ProIdeaStore is deployed as the curated diligence layer for opportunity dossiers. Both are on Worker preview URLs while custom domains are pending.
+
 **Infrastructure in place:** Doppler secrets, CF Pages deploy workflows, GitHub orgs (5/6 created), cross-store linking, sitemaps, OG tags, JSON-LD structured data.
 
 **Not yet real:** Pro tiers for simulation stores, active communities (Discord servers exist but no organic members yet), npm-published SDKs, revenue ($0).
@@ -87,7 +90,8 @@ Open Frontier One (openfrontier.one)
 │   ├── FreeAppStore / ProAppStore (apps)
 │   ├── FreeGameStore / ProGameStore (games)
 │   ├── FreeWebStore / ProWebStore (websites)
-│   └── FreeAgentStore / ProAgentStore (AI tools)
+│   ├── FreeAgentStore / ProAgentStore (AI tools)
+│   └── FreeIdeaStore / ProIdeaStore (idea validation and dossiers)
 ├── Create (tool stores)
 │   ├── FreeDesignStore (43 tools — logos, palettes, Tailwind, animations, UI)
 │   ├── FreeMarketingStore (21 tools — campaigns, SEO, social, content)
@@ -116,6 +120,7 @@ Open Frontier One (openfrontier.one)
 | ProDesignStore | AI design agent, designer marketplace, commercial assets |
 | ProMarketingStore | Autonomous campaign execution, marketer marketplace |
 | ProAdStore | AI ad agent, cross-platform campaign automation, media buyer marketplace |
+| ProIdeaStore | Diligence dossiers, opportunity readiness, validation history |
 | ProImageStore (planned) | High-res, commercial license, bulk API |
 
 ## Goals

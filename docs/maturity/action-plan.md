@@ -31,7 +31,7 @@ Prioritized work items from the maturity audit. Reference when asking "what's ne
 ## Completed (2026-06-06)
 
 - [x] Cross-store consistency audit — all naming/branding bugs fixed
-- [x] Store-level CLAUDE.md files expanded (all 8 stores)
+- [x] Store-level CLAUDE.md files expanded (original 8 platform stores)
 - [x] FWS layout restructured (platform at correct level)
 - [x] FAGS legacy host/mcp deleted
 - [x] PGS storefront renamed to progamestore

@@ -1522,7 +1522,7 @@
   <span class="md-ellipsis">
     
   
-  The 8 Stores
+  The 10 Core Platform Stores
 
     
   </span>
@@ -2209,6 +2209,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../stores/fis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  FIS — FreeIdeaStore
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../stores/fmarketing/" class="md-nav__link">
         
   
@@ -2514,6 +2541,33 @@
     
   
   PGS — ProGameStore
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stores/pis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  PIS — ProIdeaStore
 
     
   </span>
@@ -2910,8 +2964,14 @@
 <td>Live</td>
 </tr>
 <tr>
+<td>Ideas</td>
+<td>FIS, PIS</td>
+<td>6 ideas + 4 dossiers</td>
+<td>New beta/preview on Worker URLs</td>
+</tr>
+<tr>
 <td><strong>Total</strong></td>
-<td><strong>18 stores</strong></td>
+<td><strong>20 stores</strong></td>
 <td><strong>500+ items</strong></td>
 <td></td>
 </tr>
@@ -3007,6 +3067,7 @@
 <p><strong>Live tool stores:</strong> FDS (43 design tools), FMS (21 marketing tools) — browser-based, no signup. Same architecture as simulation stores. Chrome AI integration in FDS (ai-queue.js system).</p>
 <p><strong>Planned tool stores:</strong> FADS (FreeAdStore, 53 tools planned) — paid advertising toolkit. Ad creation, cross-platform previews, budget calculators, audience builders, compliance checkers. Same browser-only architecture.</p>
 <p><strong>Pro stores scaffolded:</strong> PDS and PMS have console, agent, marketplace pages plus backend Workers with D1 schema and agent-teams packages. PADS (ProAdStore) planned as AI ad agent + marketplace. Not yet deployed.</p>
+<p><strong>Idea stores beta:</strong> FreeIdeaStore is deployed as a public idea lab for critique, evidence, pivots, and contributor reputation. ProIdeaStore is deployed as the curated diligence layer for opportunity dossiers. Both are on Worker preview URLs while custom domains are pending.</p>
 <p><strong>Infrastructure in place:</strong> Doppler secrets, CF Pages deploy workflows, GitHub orgs (&#8538; created), cross-store linking, sitemaps, OG tags, JSON-LD structured data.</p>
 <p><strong>Not yet real:</strong> Pro tiers for simulation stores, active communities (Discord servers exist but no organic members yet), npm-published SDKs, revenue ($0).</p>
 <h2 id="platform-architecture">Platform Architecture<a class="headerlink" href="#platform-architecture" title="Permanent link">&para;</a></h2>
@@ -3022,19 +3083,20 @@
 </span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   ├── FreeAppStore / ProAppStore (apps)
 </span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│   ├── FreeGameStore / ProGameStore (games)
 </span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│   ├── FreeWebStore / ProWebStore (websites)
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   └── FreeAgentStore / ProAgentStore (AI tools)
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>├── Create (tool stores)
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│   ├── FreeDesignStore (43 tools — logos, palettes, Tailwind, animations, UI)
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│   ├── FreeMarketingStore (21 tools — campaigns, SEO, social, content)
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   ├── FreeAdStore (53 tools planned — ad creation, previews, budget, audience)
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│   ├── ProDesignStore (AI design agent + designer marketplace)
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>│   ├── ProMarketingStore (autonomous campaigns + marketer marketplace)
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>│   └── ProAdStore (AI ad agent, cross-platform campaign automation)
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>├── Next
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>│   ├── FreeImageStore (standalone image generation + stock)
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>│   └── FreeDataStore (data visualization tools)
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>└── Grow (Pro tiers)
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>    └── $9/mo unlocks server-powered features per store
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   ├── FreeAgentStore / ProAgentStore (AI tools)
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│   └── FreeIdeaStore / ProIdeaStore (idea validation and dossiers)
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>├── Create (tool stores)
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│   ├── FreeDesignStore (43 tools — logos, palettes, Tailwind, animations, UI)
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   ├── FreeMarketingStore (21 tools — campaigns, SEO, social, content)
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│   ├── FreeAdStore (53 tools planned — ad creation, previews, budget, audience)
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>│   ├── ProDesignStore (AI design agent + designer marketplace)
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>│   ├── ProMarketingStore (autonomous campaigns + marketer marketplace)
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>│   └── ProAdStore (AI ad agent, cross-platform campaign automation)
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>├── Next
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>│   ├── FreeImageStore (standalone image generation + stock)
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>│   └── FreeDataStore (data visualization tools)
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>└── Grow (Pro tiers)
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>    └── $9/mo unlocks server-powered features per store
 </span></code></pre></div>
 <h2 id="revenue-model">Revenue Model<a class="headerlink" href="#revenue-model" title="Permanent link">&para;</a></h2>
 <p><strong>Free tier:</strong> Always free, always will be. No signup, no limits on usage. Open source (MIT).</p>
@@ -3070,6 +3132,10 @@
 <tr>
 <td>ProAdStore</td>
 <td>AI ad agent, cross-platform campaign automation, media buyer marketplace</td>
+</tr>
+<tr>
+<td>ProIdeaStore</td>
+<td>Diligence dossiers, opportunity readiness, validation history</td>
 </tr>
 <tr>
 <td>ProImageStore (planned)</td>

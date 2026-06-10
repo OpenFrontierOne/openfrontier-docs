@@ -1,6 +1,6 @@
 # Design System
 
-Standard visual language across all 8 stores. Only **accent color** and **brand mark** vary.
+Standard visual language across OFO stores. Only **accent color** and **brand mark** vary.
 
 Full spec: `~/dev/stores/DESIGN-SYSTEM.md`
 
@@ -16,6 +16,8 @@ Full spec: `~/dev/stores/DESIGN-SYSTEM.md`
 | PWS | `#334155` (slate) | `#94a3b8` | `#f8fafc` |
 | FAGS | (TBD) | | |
 | PAGS | (TBD) | | |
+| FIS | `#f97316` (orange) | `#fb923c` | `#fff7ed` |
+| PIS | `#0f766e` (teal) | `#2dd4bf` | `#f0fdfa` |
 
 ## Typography
 

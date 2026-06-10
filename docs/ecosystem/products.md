@@ -1,6 +1,6 @@
 # Product Lines
 
-Six verticals, each with a free and pro tier.
+Seven verticals, most with a free and pro tier. The idea-store pair is the newest beta/preview vertical.
 
 ## Product architecture
 
@@ -37,6 +37,13 @@ graph TD
         FAGS[FreeAgentStore] --> CF
         PAGS[ProAgentStore] --> DO
         PAGS --> D1
+    end
+
+    subgraph "Ideas"
+        FIS[FreeIdeaStore] --> CF
+        FIS --> D1
+        PIS[ProIdeaStore] --> CF
+        PIS --> D1
     end
 ```
 
@@ -103,6 +110,22 @@ graph TD
 | Catalog | 53 agents | 10 flagship agents |
 
 **Status:** Both early beta. FAGS has volume (53 agents). PAGS has depth (full marketplace with subscriptions, isolated DOs).
+
+---
+
+## Ideas: FreeIdeaStore + ProIdeaStore
+
+**What:** Idea lifecycle stores. Free = public idea lab and reputation. Pro = curated opportunity dossiers.
+
+| | Free (FIS) | Pro (PIS) |
+|--|-----------|-----------|
+| Purpose | Raw ideas, critique, research, pivots, support signals | Diligence, readiness, risk, prototype scope |
+| Storage | D1 indexed fields, optional R2 bodies/cache | D1 dossiers, notes, interest, graduations |
+| Default artifact | One-page idea record | Opportunity dossier |
+| Contributor value | Reputation from critique, evidence, pivots, prototypes | Serious diligence and build/investment readiness |
+| URL | [freeideastore.serge-the-dev.workers.dev](https://freeideastore.serge-the-dev.workers.dev) | [proideastore.serge-the-dev.workers.dev](https://proideastore.serge-the-dev.workers.dev) |
+
+**Status:** Newly deployed beta/preview on Worker URLs while custom domains are pending. FreeIdeaStore has 6 seed ideas; ProIdeaStore has 4 seed dossiers.
 
 ---
 

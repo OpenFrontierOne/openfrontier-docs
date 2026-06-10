@@ -1,6 +1,6 @@
 # Existing Store Patterns
 
-Quick reference for how the existing 6 stores work, to inform FAGS/PAGS design decisions.
+Quick reference for how existing platform stores work, to inform new store design decisions.
 
 ## Store family
 
@@ -14,6 +14,8 @@ Quick reference for how the existing 6 stores work, to inform FAGS/PAGS design d
 | PWS | prowebstore.online | CMS sites | prowebstore-online | `pws` | `pws-media` |
 | **FAGS** | freeagentstore.online | Browser AI tools | FreeAgentStore | `fags` | `fags-agents` |
 | **PAGS** | proagentstore.online | Server AI agents | ProAgentStore | `pags` | `pags-agents` |
+| **FIS** | freeideastore.serge-the-dev.workers.dev | Idea lab | FreeIdeaStore | `fis` | optional idea bodies/cache |
+| **PIS** | proideastore.serge-the-dev.workers.dev | Opportunity dossiers | ProIdeaStore | `pis` | optional dossier assets |
 
 ## Standard infrastructure per store
 

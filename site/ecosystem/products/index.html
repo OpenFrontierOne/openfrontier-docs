@@ -955,6 +955,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ideas-freeideastore-proideastore" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ideas: FreeIdeaStore + ProIdeaStore
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#design-freedesignstore-prodesignstore" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
@@ -1438,7 +1449,7 @@
   <span class="md-ellipsis">
     
   
-  The 8 Stores
+  The 10 Core Platform Stores
 
     
   </span>
@@ -2125,6 +2136,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../stores/fis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  FIS — FreeIdeaStore
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../stores/fmarketing/" class="md-nav__link">
         
   
@@ -2449,6 +2487,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../../stores/pis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  PIS — ProIdeaStore
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../stores/pms-marketplace-model/" class="md-nav__link">
         
   
@@ -2626,6 +2691,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ideas-freeideastore-proideastore" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ideas: FreeIdeaStore + ProIdeaStore
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#design-freedesignstore-prodesignstore" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
@@ -2674,7 +2750,7 @@
                   
 
 <h1 id="product-lines">Product Lines<a class="headerlink" href="#product-lines" title="Permanent link">&para;</a></h1>
-<p>Six verticals, each with a free and pro tier.</p>
+<p>Seven verticals, most with a free and pro tier. The idea-store pair is the newest beta/preview vertical.</p>
 <h2 id="product-architecture">Product architecture<a class="headerlink" href="#product-architecture" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>graph TD
     subgraph "Shared Infrastructure"
@@ -2708,6 +2784,13 @@
         FAGS[FreeAgentStore] --&gt; CF
         PAGS[ProAgentStore] --&gt; DO
         PAGS --&gt; D1
+    end
+
+    subgraph "Ideas"
+        FIS[FreeIdeaStore] --&gt; CF
+        FIS --&gt; D1
+        PIS[ProIdeaStore] --&gt; CF
+        PIS --&gt; D1
     end</code></pre>
 <h2 id="apps-freeappstore-proappstore">Apps: FreeAppStore + ProAppStore<a class="headerlink" href="#apps-freeappstore-proappstore" title="Permanent link">&para;</a></h2>
 <p><strong>What:</strong> PWA app store with full SDK (auth, storage, real-time, email, webhooks).</p>
@@ -2878,6 +2961,46 @@
 </tbody>
 </table>
 <p><strong>Status:</strong> Both early beta. FAGS has volume (53 agents). PAGS has depth (full marketplace with subscriptions, isolated DOs).</p>
+<hr />
+<h2 id="ideas-freeideastore-proideastore">Ideas: FreeIdeaStore + ProIdeaStore<a class="headerlink" href="#ideas-freeideastore-proideastore" title="Permanent link">&para;</a></h2>
+<p><strong>What:</strong> Idea lifecycle stores. Free = public idea lab and reputation. Pro = curated opportunity dossiers.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Free (FIS)</th>
+<th>Pro (PIS)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Purpose</td>
+<td>Raw ideas, critique, research, pivots, support signals</td>
+<td>Diligence, readiness, risk, prototype scope</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>D1 indexed fields, optional R2 bodies/cache</td>
+<td>D1 dossiers, notes, interest, graduations</td>
+</tr>
+<tr>
+<td>Default artifact</td>
+<td>One-page idea record</td>
+<td>Opportunity dossier</td>
+</tr>
+<tr>
+<td>Contributor value</td>
+<td>Reputation from critique, evidence, pivots, prototypes</td>
+<td>Serious diligence and build/investment readiness</td>
+</tr>
+<tr>
+<td>URL</td>
+<td><a href="https://freeideastore.serge-the-dev.workers.dev">freeideastore.serge-the-dev.workers.dev</a></td>
+<td><a href="https://proideastore.serge-the-dev.workers.dev">proideastore.serge-the-dev.workers.dev</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Status:</strong> Newly deployed beta/preview on Worker URLs while custom domains are pending. FreeIdeaStore has 6 seed ideas; ProIdeaStore has 4 seed dossiers.</p>
 <hr />
 <h2 id="design-freedesignstore-prodesignstore">Design: FreeDesignStore + ProDesignStore<a class="headerlink" href="#design-freedesignstore-prodesignstore" title="Permanent link">&para;</a></h2>
 <p><strong>What:</strong> Browser-based design tools. Free = 43 self-contained HTML tools (no signup, no watermarks). Pro = AI design agent + designer marketplace.</p>

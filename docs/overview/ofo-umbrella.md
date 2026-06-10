@@ -12,6 +12,7 @@ OFO presents and links together:
 - Games: FreeGameStore and ProGameStore
 - Websites: FreeWebStore and ProWebStore
 - Agents: FreeAgentStore and ProAgentStore
+- Ideas: FreeIdeaStore and ProIdeaStore
 - Knowledge and tool stores such as robotics, quantum, crypto, biology, chips, space, design, marketing, finance, code, books, writing, music, data, and peer-to-peer tools
 
 ## Local files

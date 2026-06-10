@@ -123,6 +123,7 @@ Default extension access should be limited to OFO-owned domains and store domain
 - `free*.online` store domains owned by OFO
 - `pro*.online` store domains owned by OFO
 - named Pages preview domains for stores while they are still in transition
+- exact Worker preview hosts for newly deployed stores, currently `freeideastore.serge-the-dev.workers.dev` and `proideastore.serge-the-dev.workers.dev`
 
 The backend should also validate origin and reject telemetry from non-owned domains.
 

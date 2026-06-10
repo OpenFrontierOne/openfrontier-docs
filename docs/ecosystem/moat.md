@@ -83,7 +83,7 @@ graph TD
     DS --> SDK3
 ```
 
-Build once (auth, hosting, CI, secrets, design system), deploy across all 8 stores. Each store's SDK is independent but the infrastructure cost is amortized.
+Build once (auth, hosting, CI, secrets, design system), reuse across the store ecosystem. Each store's SDK or API surface is independent but the infrastructure cost is amortized.
 
 ### 6. Ecosystem lock-in (positive)
 

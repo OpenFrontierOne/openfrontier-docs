@@ -8,7 +8,7 @@ The OFO public website lives in `landing/` and is deployed as `openfrontier.one`
 
 - **344 repositories** across the store GitHub organizations
 - **170+ live items** deployed and accessible worldwide
-- **4 product verticals** (apps, games, websites, AI agents)
+- **5 product verticals** (apps, games, websites, AI agents, ideas)
 - **1 umbrella site** (`landing/`) presenting the whole ecosystem
 - **Edge-native** on Cloudflare (sub-50ms globally, zero cold starts)
 - **AI-first creation** — describe what you want, AI builds and ships it
@@ -22,6 +22,7 @@ graph TB
         FGS["FreeGameStore<br/>80 repos | 50+ games"]
         FWS["FreeWebStore<br/>14 repos | 10+ sites"]
         FAGS["FreeAgentStore<br/>52 repos | 53 agents"]
+        FIS["FreeIdeaStore<br/>idea lab | 6 seed ideas"]
     end
 
     subgraph "Pro ($9/mo unlocks everything)"
@@ -29,12 +30,14 @@ graph TB
         PGS["ProGameStore<br/>14 repos | 3 games"]
         PWS["ProWebStore<br/>1 repo | CMS engine"]
         PAGS["ProAgentStore<br/>11 repos | 10 agents"]
+        PIS["ProIdeaStore<br/>diligence dossiers | 4 seed dossiers"]
     end
 
     FAS -->|"graduates to"| PAS
     FGS -->|"graduates to"| PGS
     FWS -->|"graduates to"| PWS
     FAGS -->|"graduates to"| PAGS
+    FIS -->|"graduates to"| PIS
 ```
 
 ## Explore
@@ -87,7 +90,9 @@ graph TB
 | ProWebStore | Pivoting | CMS built |
 | FreeAgentStore | Beta | 53 agents |
 | ProAgentStore | Beta | 10 agents |
+| FreeIdeaStore | Beta | 6 seed ideas |
+| ProIdeaStore | Preview | 4 seed dossiers |
 
 ---
 
-*Last updated: 2026-06-09.*
+*Last updated: 2026-06-11.*
