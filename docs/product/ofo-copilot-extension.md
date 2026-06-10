@@ -158,8 +158,9 @@ The first build should stay small:
 - Local activity history with user export and delete controls.
 - Explicit opt-in before community matching treats the profile as visible.
 - Testable core logic for crash-course plans, next actions, and community recommendations.
-- Signed-in account placeholder with sync payload preview, without sending network requests yet.
+- Real OFO/FAS GitHub sign-in through Chrome identity web auth flow; sync payloads are still preview-only until the OFO copilot backend exists.
 - Local-only OpenAI and Claude API key storage, separate from OFO account sign-in and excluded from sync payloads.
+- Separate local deletion controls for profile/history and for all local extension data.
 - Reproducible extension zip packaging in CI for review and test installs.
 - Community recommendation placeholder.
 - No automatic posting, messaging, or broad automation.
