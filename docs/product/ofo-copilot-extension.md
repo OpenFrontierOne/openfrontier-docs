@@ -148,7 +148,7 @@ The first build should stay small:
 
 - Manifest V3 browser extension.
 - Side panel UI.
-- Same OFO account sign-in placeholder.
+- Real OFO/FAS GitHub sign-in through Chrome identity web auth flow.
 - Content script only on OFO-owned domains.
 - Current page context detection.
 - "Explain this page" prompt.
@@ -158,12 +158,15 @@ The first build should stay small:
 - Local activity history with user export and delete controls.
 - Explicit opt-in before community matching treats the profile as visible.
 - Testable core logic for crash-course plans, next actions, and community recommendations.
-- Real OFO/FAS GitHub sign-in through Chrome identity web auth flow; sync payloads are still preview-only until the OFO copilot backend exists.
+- Sync payloads are still preview-only until the OFO copilot backend exists.
 - Local-only OpenAI and Claude API key storage, separate from OFO account sign-in and excluded from sync payloads.
 - Separate local deletion controls for profile/history and for all local extension data.
+
 - Reproducible extension zip packaging in CI for review and test installs.
 - Community recommendation placeholder.
 - No automatic posting, messaging, or broad automation.
+
+The sign-in flow uses the existing FAS auth start endpoint with `response_mode=query` and a Chrome identity redirect URL from `chrome.identity.getRedirectURL("ofo-copilot")`. The FAS auth service must allow that `return_to` URL and redirect back with `?fas_session=...`.
 
 ## Architecture sketch
 

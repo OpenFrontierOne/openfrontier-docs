@@ -3065,7 +3065,7 @@
 <ul>
 <li>Manifest V3 browser extension.</li>
 <li>Side panel UI.</li>
-<li>Same OFO account sign-in placeholder.</li>
+<li>Real OFO/FAS GitHub sign-in through Chrome identity web auth flow.</li>
 <li>Content script only on OFO-owned domains.</li>
 <li>Current page context detection.</li>
 <li>"Explain this page" prompt.</li>
@@ -3075,13 +3075,18 @@
 <li>Local activity history with user export and delete controls.</li>
 <li>Explicit opt-in before community matching treats the profile as visible.</li>
 <li>Testable core logic for crash-course plans, next actions, and community recommendations.</li>
-<li>Real OFO/FAS GitHub sign-in through Chrome identity web auth flow; sync payloads are still preview-only until the OFO copilot backend exists.</li>
+<li>Sync payloads are still preview-only until the OFO copilot backend exists.</li>
 <li>Local-only OpenAI and Claude API key storage, separate from OFO account sign-in and excluded from sync payloads.</li>
-<li>Separate local deletion controls for profile/history and for all local extension data.</li>
-<li>Reproducible extension zip packaging in CI for review and test installs.</li>
+<li>
+<p>Separate local deletion controls for profile/history and for all local extension data.</p>
+</li>
+<li>
+<p>Reproducible extension zip packaging in CI for review and test installs.</p>
+</li>
 <li>Community recommendation placeholder.</li>
 <li>No automatic posting, messaging, or broad automation.</li>
 </ul>
+<p>The sign-in flow uses the existing FAS auth start endpoint with <code>response_mode=query</code> and a Chrome identity redirect URL from <code>chrome.identity.getRedirectURL("ofo-copilot")</code>. The FAS auth service must allow that <code>return_to</code> URL and redirect back with <code>?fas_session=...</code>.</p>
 <h2 id="architecture-sketch">Architecture sketch<a class="headerlink" href="#architecture-sketch" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>graph LR
     User[User] --&gt; Extension[OFO Copilot extension]
