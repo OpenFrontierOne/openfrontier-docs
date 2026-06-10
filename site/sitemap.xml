@@ -34,6 +34,9 @@
         <loc>https://docs.openfrontier.one/capabilities/browser-automation/</loc>
       </url>
       <url>
+        <loc>https://docs.openfrontier.one/capabilities/image-generation/</loc>
+      </url>
+      <url>
         <loc>https://docs.openfrontier.one/capabilities/local-llm/</loc>
       </url>
       <url>
@@ -89,6 +92,9 @@
       </url>
       <url>
         <loc>https://docs.openfrontier.one/overview/stores/</loc>
+      </url>
+      <url>
+        <loc>https://docs.openfrontier.one/product/ofo-copilot-extension/</loc>
       </url>
       <url>
         <loc>https://docs.openfrontier.one/reference/compliance-checks/</loc>

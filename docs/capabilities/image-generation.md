@@ -270,9 +270,9 @@ function ddpmStep(sample, noisePred, t, tPrev, alphasCumprod) {
 
 | Model | Steps | Timesteps | Guidance scale | Timestep dtype |
 |-------|-------|-----------|---------------|----------------|
-| SD-Turbo | 4 | [999, 749, 499, 249] | 1.0 | int64 |
+| SD-Turbo | 4 | `[999, 749, 499, 249]` | 1.0 | int64 |
 | SD 1.5 | 20-50 | Evenly spaced from 999 to 0 | 7.5 | float32 |
-| SDXL-Turbo | 4 | [999, 749, 499, 249] | 0.0 | int64 |
+| SDXL-Turbo | 4 | `[999, 749, 499, 249]` | 0.0 | int64 |
 
 ### VAE scaling
 

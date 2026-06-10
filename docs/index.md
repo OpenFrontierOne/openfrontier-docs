@@ -53,6 +53,10 @@ graph TB
 
     Where the umbrella website and docs live.
 
+- :material-compass-outline: **[OFO Copilot Extension](product/ofo-copilot-extension.md)**
+
+    Browser extension concept for learning, doing, and connecting across OFO-owned stores.
+
 - :material-currency-usd: **[Revenue Model](ecosystem/revenue.md)**
 
     $9/mo subscription. Spotify-style creator payouts.
