@@ -148,7 +148,7 @@ The first build should stay small:
 
 - Manifest V3 browser extension.
 - Side panel UI.
-- Real OFO/FAS GitHub sign-in through Chrome identity web auth flow.
+- Real OFO/FAS Google and GitHub sign-in through Chrome identity web auth flow.
 - Content script only on OFO-owned domains.
 - Current page context detection.
 - "Explain this page" prompt.
@@ -166,7 +166,7 @@ The first build should stay small:
 - Community recommendation placeholder.
 - No automatic posting, messaging, or broad automation.
 
-The sign-in flow uses the existing FAS auth start endpoint with `response_mode=query` and a Chrome identity redirect URL from `chrome.identity.getRedirectURL("ofo-copilot")`. The FAS auth service must allow that `return_to` URL and redirect back with `?fas_session=...`.
+The sign-in flow uses the existing FAS auth start endpoints for Google and GitHub with `response_mode=query` and a Chrome identity redirect URL from `chrome.identity.getRedirectURL("ofo-copilot")`. The FAS auth service must allow that `return_to` URL and redirect back with `?fas_session=...`.
 
 ## Architecture sketch
 

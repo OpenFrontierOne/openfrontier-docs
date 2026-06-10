@@ -3065,7 +3065,7 @@
 <ul>
 <li>Manifest V3 browser extension.</li>
 <li>Side panel UI.</li>
-<li>Real OFO/FAS GitHub sign-in through Chrome identity web auth flow.</li>
+<li>Real OFO/FAS Google and GitHub sign-in through Chrome identity web auth flow.</li>
 <li>Content script only on OFO-owned domains.</li>
 <li>Current page context detection.</li>
 <li>"Explain this page" prompt.</li>
@@ -3086,7 +3086,7 @@
 <li>Community recommendation placeholder.</li>
 <li>No automatic posting, messaging, or broad automation.</li>
 </ul>
-<p>The sign-in flow uses the existing FAS auth start endpoint with <code>response_mode=query</code> and a Chrome identity redirect URL from <code>chrome.identity.getRedirectURL("ofo-copilot")</code>. The FAS auth service must allow that <code>return_to</code> URL and redirect back with <code>?fas_session=...</code>.</p>
+<p>The sign-in flow uses the existing FAS auth start endpoints for Google and GitHub with <code>response_mode=query</code> and a Chrome identity redirect URL from <code>chrome.identity.getRedirectURL("ofo-copilot")</code>. The FAS auth service must allow that <code>return_to</code> URL and redirect back with <code>?fas_session=...</code>.</p>
 <h2 id="architecture-sketch">Architecture sketch<a class="headerlink" href="#architecture-sketch" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>graph LR
     User[User] --&gt; Extension[OFO Copilot extension]
