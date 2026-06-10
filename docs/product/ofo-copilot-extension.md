@@ -158,6 +158,7 @@ The first build should stay small:
 - Local activity history with user export and delete controls.
 - Explicit opt-in before community matching treats the profile as visible.
 - Testable core logic for crash-course plans, next actions, and community recommendations.
+- Reproducible extension zip packaging in CI for review and test installs.
 - Community recommendation placeholder.
 - No automatic posting, messaging, or broad automation.
 
